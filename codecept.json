@@ -4,7 +4,7 @@
   "output": "./output",
   "helpers": {
     "Nightmare": {
-      "url": "http://localhost",
+      "url": "https://www.everreal.co",
       "show": true,
       "restart": false
     }
