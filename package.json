@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cjs": "codeceptjs",
     "test": "codeceptjs run"
   },
   "author": "Katarzyna Ulok",
