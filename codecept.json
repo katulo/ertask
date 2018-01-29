@@ -3,9 +3,10 @@
   "timeout": 10000,
   "output": "./output",
   "helpers": {
-    "Puppeteer": {
+    "Nightmare": {
       "url": "http://localhost",
-      "show": true
+      "show": true,
+      "restart": false
     }
   },
   "include": {

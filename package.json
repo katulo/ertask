@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "codeceptjs": "^1.1.2",
-    "codeceptjs-puppeteer": "^1.1.0"
+    "codeceptjs-nightmare": "^1.1.0"
   }
 }
