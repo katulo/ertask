@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cjs": "codeceptjs",
-    "test": "codeceptjs run"
+    "test": "codeceptjs run",
+    "test:debug": "node --inspect-brk=51412 ./node_modules/.bin/codeceptjs run"
   },
   "author": "Katarzyna Ulok",
   "license": "ISC",

@@ -70,3 +70,6 @@ typings/
 
 # Codecept
 output/
+
+# Jetbrains IDEs
+.idea/

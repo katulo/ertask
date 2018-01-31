@@ -21,8 +21,9 @@ Scenario('required correct email format', (I) => {
     I.see('Email is not correct');
 });
 
-// Scenario('password is required', (I) => {
-// });
+Scenario('password is required', (I) => {
+    
+});
 
 // Scenario('email is required', (I) => {
 // });
