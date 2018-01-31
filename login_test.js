@@ -28,6 +28,9 @@ Scenario('password is required', (I) => {
 });
 
 Scenario('email is required', (I) => {
+    I.fillField('Password', 'somethingtotest');
+    I.click('Login');
+    I.see('Field is required');
 });
 
 // Scenario('wrong credentials', (I) => {
