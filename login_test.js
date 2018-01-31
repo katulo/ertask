@@ -22,11 +22,13 @@ Scenario('required correct email format', (I) => {
 });
 
 Scenario('password is required', (I) => {
-    
+   I.fillField('E-Mail', 'test@test.pl');
+   I.click('Login');
+   I.see('Field is required');
 });
 
-// Scenario('email is required', (I) => {
-// });
+Scenario('email is required', (I) => {
+});
 
 // Scenario('wrong credentials', (I) => {
 // });
