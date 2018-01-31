@@ -39,3 +39,9 @@ Scenario('wrong credentials', (I) => {
     I.click('Login');
     I.see('Invalid username or password.');
 });
+
+Scenario('reset password link works', (I) => {
+    I.click('Reset password');
+    I.see('Did you forget your password?');
+    I.seeInCurrentUrl('https://www.everreal.co/accounts/en-US/resetpassword');
+});
