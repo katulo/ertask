@@ -33,5 +33,9 @@ Scenario('email is required', (I) => {
     I.see('Field is required');
 });
 
-// Scenario('wrong credentials', (I) => {
-// });
+Scenario('wrong credentials', (I) => {
+    I.fillField('E-Mail', 'kasia@ukj.pl');
+    I.fillField('Password', 'jjdjjddkd');
+    I.click('Login');
+    I.see('Invalid username or password.');
+});
