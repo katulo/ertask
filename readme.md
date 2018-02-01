@@ -15,8 +15,12 @@ npm i
 Run:
 
 ```
-npm test
+npm test --grep "01_login" &&
+npm test --grep "02_reset_password" &&
+npm test --grep "03_signup"
 ```
+
+Running tests separately, because there is some issue with I.amOnPage('') in subsequent tests.
 
 ### Debug tests:
 
