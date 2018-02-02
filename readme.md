@@ -2,11 +2,16 @@
 
 ### Perequisities:
 
-Install Node min. version 8.9. Recommended using nvm.
+Install Node & NPM min. version 8.9. Recommended using nvm.
 
 Install dependencies:
 
+Install JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
 ```
+npm install selenium-standalone@latest -g # global selenium install
+selenium-standalone install
+selenium-standalone start
 npm i
 ```
 
